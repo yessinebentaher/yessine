@@ -1,0 +1,25 @@
+header , footer{
+            color: white;
+            background-color:#444 ;
+}
+
+section{
+     background-color: #ddd; 
+}
+
+article{
+    background: white;
+    border-color: grey;
+    width:95%;
+    align="center";
+
+}
+.A{
+    front-weight: bold;
+    front-family: Verdana;
+    front-style: italic;
+    
+}
+
+        
+   

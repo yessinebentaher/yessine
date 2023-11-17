@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" /> //cofigure le type de caractere utilisee
+        <title> Ma premiere page</title>
+        <style>
+            h1{color: red;
+            front-size: 14px;}
+            p{color:blue;
+            text-decorationration: underline}
+            body{
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <p >Hello world</p>
+        contact me:<a href="mailto:yessine.bentaher@esprit.tn>->Here<-</a>
+        <hr>
+        <b>Hello<a href="https://www.google.com">Google</a></b>
+        <img src=".png" alt="logo Esprit" width="65%">
+        <br>
+        <h6>les personnes sont:</h6>
+        <dl>
+            <dt>Nom:</dt>
+            <dd align="center">Mohammed</dd>
+            <dd align="center">Ali</dd>
+            <dd align="center">Salma</dd>
+        </dl>
+        <table border="4">
+            <tr>
+                <td colspan="6">1</td>
+                <td colspan="3">2</td>
+            </tr>
+            <tr>
+                <td colspan="3">4</td>
+                <td colspan="3">3</td>
+                <td colspan="3">5</td>
+            </tr>
+        </table>
+        <br>
+        <table border="4">
+            <tr>
+                <td rowspan="4">1</td>
+                <td colspan="2">2</td>
+                <td colspan="2">3</td>
+            </tr>
+            <tr>
+                <td colspan="2">4</td>
+                <td colspan="2">5</td>
+            </tr>
+        </table>
+        <form>
+            <lbel for="name">Nom:</lbel>
+            <input  type="test" name="name" id="name"  required minlength="10" maxlength="20" size="20" value="     --inserez votre nom--" >
+            <input type="submit" value="Sign up">
+        </form>
+        <form>
+            <label for="comment">commentaire:</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        </form>
+        <form>
+            <label for="pays">Pays:<br></label>
+           
+            <select name="pays" >
+                <option value="tn">Tunisie</option>
+                <option value="fr">France</option>
+                <option value="ca">Canada</option>
+                <option value="Am">America</option>
+                <option value="Eu">Europe</option>
+            </select>
+        </form>
+        <form>
+            <label><input type="radio" name="genre" value="m" checked>homme</label>
+            <label><input type="radio" name="genre" value="f" checked>femme</label>
+
+        </form>
+        <form>
+            <label><input type="checkbox" name="speciality" value="Basketball" checked>Basketball</label>
+            <label><input type="checkbox" name="speciality" value="Handball" checked>Handball</label>
+            <label><input type="checkbox" name="speciality" value="Vollyball" checked>Vollyball</label>
+        </form>
+        
+    </body>
+</html>
